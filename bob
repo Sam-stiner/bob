@@ -1,0 +1,7 @@
+import pymedia.audio.sound as sound
+loop = 9
+
+while loop == 9:
+  s = sound() 
+  s.read('sound.wav') 
+  s.play()
